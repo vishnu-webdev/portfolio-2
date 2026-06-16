@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">MyPortfolio</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h1>Hi, I'm <span class="highlight">Vishnu NM</span></h1>
+            <h2>Frontend Developer & Designer</h2>
+            <p>I build clean, beautiful, and responsive web experiences. Passionate about turning complex problems into elegant user interfaces using modern CSS3 and semantic HTML.</p>
+            <a href="#contact" class="btn btn-primary">Get In Touch</a>
+        </div>
+        <div class="about-image">
+            <img src="./images/profilepic.png" alt="Vishnu N M Profile Picture">
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <img src="./images/project1.png" alt="Project One Thumbnail" class="project-img">
+                <div class="project-info">
+                    <h3>E-Commerce Dashboard</h3>
+                    <p>A sleek, interactive dashboard tracking real-time sales metrics and user data analytics.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/project2.png" alt="Project Two Thumbnail" class="project-img">
+                <div class="project-info">
+                    <h3>Recipe Finder Web App</h3>
+                    <p>A responsive application allowing users to search, filter, and save their favorite culinary recipes.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="form-container">
+            <form action="#" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message..." required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    </main>
+
+    <footer class="portfolio-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Alex Doe. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="https://github.com/vishnu-webdev" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/vishnnuu/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            </ul>
+            <div class="back-to-top">
+                <a href="#about">Back to top &uarr;</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
