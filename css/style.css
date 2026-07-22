@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-html{
-    ~scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
 }
 
 main {
@@ -199,6 +199,48 @@ body {
     padding: 6rem 10%;
 }
 
+.contact-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    background-color: #1e293b;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    margin-bottom: 3rem;
+}
+
+.contact-item {
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+}
+
+.contact-item i {
+    font-size: 2.5rem;
+    color: #3b82f6;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.contact-item:hover i {
+    transform: translateY(-5px);
+}
+
+.contact-item h5 {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.contact-item p {
+    color: #94a3b8;
+    font-size: 1rem;
+    margin: 0;
+}
+
 .form-container {
     max-width: 550px;
     margin: 0 auto;
@@ -306,7 +348,6 @@ body {
         flex-direction: column;
         text-align: center;
     }
-
 }
 
 @media (max-width: 768px) {
@@ -359,5 +400,4 @@ body {
     .project-card {
         width: 260px;
     }
-
 }
