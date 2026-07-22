@@ -343,6 +343,49 @@ body {
     color: #fff;
 }
 
+.thank-you-main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f172a;
+    font-family: 'Inter', sans-serif;
+    color: #e2e8f0;
+    padding: 2rem;
+}
+
+.thank-you-container {
+    width: 100%;
+    max-width: 500px;
+}
+
+.thank-you-card {
+    background-color: #1e293b;
+    padding: 3rem 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.success-icon {
+    font-size: 4rem;
+    color: #3b82f6;
+    margin-bottom: 1.5rem;
+}
+
+.thank-you-card h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.thank-you-card p {
+    color: #94a3b8;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
 @media (max-width: 600px) {
     .footer-content {
         flex-direction: column;
